@@ -37,7 +37,7 @@ public class VoiceManager : MonoBehaviour {
    * НЕ-Ленивая реализация паттерна Одиночка. Объект нужно предварительно создать на сцене
    * @return ссылка на Одиночку
    */
-  public static VOICE me { get; private set; }
+  public static VoiceManager me { get; private set; }
 
   /// Корректная инициализации Одиночки
   /**
